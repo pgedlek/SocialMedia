@@ -1,4 +1,7 @@
 package com.pgedlek.social_media.repositories;
 
-public class SocialGroupRepository {
+import com.pgedlek.social_media.models.SocialGroup;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SocialGroupRepository extends JpaRepository<SocialGroup, Long> {
 }

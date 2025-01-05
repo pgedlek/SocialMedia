@@ -76,6 +76,8 @@ public class DataInitializer {
             socialProfileRepository.save(socialProfile1);
             socialProfileRepository.save(socialProfile2);
             socialProfileRepository.save(socialProfile3);
+
+            socialUserRepository.findById(1L);
         };
     }
 }
